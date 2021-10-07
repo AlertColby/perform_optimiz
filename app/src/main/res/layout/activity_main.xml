@@ -5,14 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.demo.profiler.MainActivity">
 
     <Button
-        android:id="@+id/btnToLeakActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="136dp"
         android:layout_marginTop="68dp"
-        android:onClick="toLeakActivity"
-        android:text="toLeakActivity"/>
+        android:onClick="toCPU"
+        android:text="CPU Profiler"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="68dp"
+        android:onClick="toMemory"
+        android:text="Memory Profiler"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="68dp"
+        android:onClick="toNetwork"
+        android:text="Network Profiler"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="68dp"
+        android:onClick="toEnergy"
+        android:text="Energy Profiler"/>
+
 </LinearLayout>
